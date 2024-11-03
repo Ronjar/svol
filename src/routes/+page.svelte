@@ -24,8 +24,8 @@
   </script>
   
   {#if noDevices}
-    <div class="flex items-center justify-center min-h-screen">
-      <div class="card w-96 bg-base-100 shadow-xl">
+    <div class="flex items-center justify-center h-full">
+      <div class="card w-96 bg-base-100 shadow-xl mt-48">
         <div class="card-body">
           <h2 class="card-title">No devices found</h2>
           <p>Please add devices to the environment variables.</p>
